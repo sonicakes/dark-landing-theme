@@ -56,7 +56,7 @@ body {
 
 .nav {
   display: flex;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .nav__logo {
   margin-right: auto;
@@ -87,6 +87,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 700;
+  padding: 15px 0;
 }
 .intro__cta {
   font-family: "Raleway", sans-serif;
@@ -96,10 +97,61 @@ body {
   font-weight: 700;
   padding: 15px 20px;
   border-radius: 20px;
+  margin-top: 30px;
 }
 .intro__cta:hover {
   background: #65e2d9;
   cursor: pointer;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin: 0 150px;
+}
+.benefits__item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 20px;
+  text-align: center;
+}
+.benefits__text {
+  padding-top: 30px;
+}
+
+.two-col {
+  display: flex;
+}
+.two-col .col {
+  width: 50%;
+}
+.two-col .col--txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 50px 0;
+}
+.testimonials__item {
+  background: #202a3c;
+  padding: 20px;
+}
+.testimonials__txt {
+  padding-bottom: 30px;
+}
+.testimonials__person {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
